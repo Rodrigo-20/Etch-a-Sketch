@@ -1,3 +1,2 @@
 # Etch-a-Sketch
-A fun Etch-A-Sketch version
-THis is a big change
+Enjoy yourself playing Etch-a-Sketch following this link https://rodrigo-20.github.io/Etch-a-Sketch/  

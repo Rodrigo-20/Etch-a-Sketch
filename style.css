@@ -1,14 +1,15 @@
 body{
     text-align: center;
     font-style: italic;
-    background-color: rgb(177, 230, 205);
+    background-color: black;
+    color: white;
 }
 .container{
     display: grid;
     height: 640px;
     width: 640px;
     margin:40px auto;
-    border:3px solid black;
+    border:1px solid black;
 }
 .box{
     border:1px solid yellow;
@@ -18,14 +19,19 @@ button{
     height: 50px;
     padding:10px 20px;
     border-radius: 5%;
-    background-color:rgb(92, 196, 32);
-    color:white;
+    background-color:rgb(202, 131, 0);
+    font-size: 20px;
+    font-weight: 700;
     margin-bottom:40px ;
-   
+    color: white;
+    transition: all .25s;
 
 }
 button:hover{
-    box-shadow: 5px 0px 36px -7px rgba(0,0,0,0.75);
+    box-shadow: 3px 2px 7px 0.25px rgba(255, 255, 255, 0.267);
+    transform: scale(1.1);
+    font-size: 22px;
+  
 }
 #buttons{
     display: flex;
